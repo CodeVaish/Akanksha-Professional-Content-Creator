@@ -1,0 +1,132 @@
+body {
+  margin:0;
+  
+  background-image: url(backgroung.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;                      
+  width: 100%;                        
+  overflow: hidden;
+  
+} 
+
+
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00bcd4 !important; 
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #00bcd4;  
+}
+/*   ABOUT PAGE*/
+#about{
+  height: 500px;
+  padding-top: 50px;
+  
+}
+#image{
+  padding-left: 100px;
+}
+#content
+{
+  padding-right: 100px;
+}
+.skills-buttons BUTTON{
+  height: 30PX;
+  border-radius: 10PX;
+}
+
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #00bcd4;
+  margin: 0 auto;
+}
+
+.year {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.project-img {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.biography-content{
+  flex: 1;
+}
+.education-details p {
+  margin-bottom: 15px;
+}
+/* contact */
+.contact-section {
+  padding: 50px 0;
+  height:100vh;
+
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  font-size: 1.25rem;
+}
+
+.text-highlight {
+  color: #00bcd4;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #00bcd4;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+/*  */
+.footer {
+  background-color: #1b1b20;
+  height: 100px;
+}
+
+.footer h4 {
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: bold;
+}
